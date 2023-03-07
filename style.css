@@ -1,0 +1,137 @@
+body{
+    /* background-color: rgb(250, 139, 255); */
+    animation: myname 5s infinite;
+}
+
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@keyframes myname{
+    from {background-color : rgb(74, 74, 186);}
+    to   {background-color : rgb(250, 139, 255);}
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+}
+
+label{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;  
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+
+#fullName1{
+    font-size: 20px;
+    width: auto;
+    /* box-sizing: border-box; */
+    border: 2px solid rebeccapurple;
+   
+}
+
+#fullName2{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+
+.error{
+    background: white;
+    border: 2px solid red ;
+    border-radius: 0.125em;
+    padding: 0.5em;
+}
+
+.error:empty{
+    display: none;
+}
+
+#address{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+label[for="sex1"]{
+    font-size: 20px;
+    width: 30px;
+}
+
+label[for="sex2"]{
+    font-size: 20px;
+    width: 30px;
+}
+
+select[id="cities"]{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+select[id="side"]{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+select[id="District"]{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+input[id="must"]{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+.PnG{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+#dob{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+#Mobileno{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+input[type="reset"]{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    margin-left: 98px;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    margin-left: 28px;
+}
+
